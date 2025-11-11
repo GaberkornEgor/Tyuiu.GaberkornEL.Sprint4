@@ -11,7 +11,7 @@ namespace Tyuiu.GaberkornEL.Sprint4.Task0.V3.Lib
             {
                 if (array[i] % 2 != 0)
                 {
-                    res *= array[i];
+                    res = (res + 1) * array[i];
                 }
             }
             return res;

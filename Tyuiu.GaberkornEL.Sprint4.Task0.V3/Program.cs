@@ -41,7 +41,7 @@ namespace Tyuiu.GaberkornEL.Sprint4.Task0.V3
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" Сумма нечётных элементов массива: " + ds.GetMultOddArrEl(array));
+            Console.WriteLine(" Произведение нечётных элементов массива: " + ds.GetMultOddArrEl(array));
 
             Console.ReadKey();
         }
