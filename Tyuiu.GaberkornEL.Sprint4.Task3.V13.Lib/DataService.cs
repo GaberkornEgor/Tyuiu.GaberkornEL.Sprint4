@@ -2,7 +2,7 @@
 
 namespace Tyuiu.GaberkornEL.Sprint4.Task3.V13.Lib
 {
-    public class DataService : ISprint4Task3V28
+    public class DataService : ISprint4Task3V13
     {
         public int Calculate(int[,] array)
         {
