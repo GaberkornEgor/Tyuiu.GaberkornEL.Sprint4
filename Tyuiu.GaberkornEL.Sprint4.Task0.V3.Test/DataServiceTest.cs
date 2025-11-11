@@ -8,7 +8,7 @@ namespace Tyuiu.GaberkornEL.Sprint4.Task0.V3.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalc()
+        public void TestMethod1()
         {
             DataService ds = new DataService();
 
