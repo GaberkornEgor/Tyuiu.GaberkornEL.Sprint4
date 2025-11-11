@@ -13,6 +13,23 @@ namespace Tyuiu.GaberkornEL.Sprint4.Task5.V7
         {
             DataService ds = new DataService();
 
+            Console.Title = "Спринт #4 | Выполнила Габеркорн Егор Леонидович | АСОиУб-25-1";
+            Console.WriteLine("*****************************************************************************");
+            Console.WriteLine("* Спринт #5                                                                 *");
+            Console.WriteLine("* Тема: Двумерные массивы (ввод с клавиатуры)                               *");
+            Console.WriteLine("* Задание #4                                                                *");
+            Console.WriteLine("* Вариант #7                                                                *");
+            Console.WriteLine("* Выполнила: Габеркорн Егор Леонидович | АСОиУб-25-1                        *");
+            Console.WriteLine("*****************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                  *");
+            Console.WriteLine("* Дан двумерный целочисленный массив 5 на 5 элементов                       *");
+            Console.WriteLine("* заполненный случайными значениями в диапазоне от -7 до 7.                 *");
+            Console.WriteLine("* Найти количество отрицательных элементов.                                 *");
+            Console.WriteLine("*                                                                           *");
+            Console.WriteLine("*****************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
+            Console.WriteLine("*****************************************************************************");
+
             int len;
             Console.WriteLine("Введите размерность массива (5):");
             len = Convert.ToInt32(Console.ReadLine());
