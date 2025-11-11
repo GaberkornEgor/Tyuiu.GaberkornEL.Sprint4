@@ -13,6 +13,7 @@ namespace Tyuiu.GaberkornEL.Sprint4.Task0.V3.Lib
                 {
                     res = (res + 1) * array[i];
                 }
+                else { return res; }
             }
             return res;
 
